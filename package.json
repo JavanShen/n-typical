@@ -5,13 +5,19 @@
   "files": ["es", "lib"],
   "scripts": {
     "build": "vite build && tsc",
-    "test": "vitest"
+    "test": "vitest",
+    "prepublishOnly": "pnpm test && pnpm build"
   },
   "publishConfig": {
     "main": "./lib/typing.js",
     "module": "./es/typing.js",
     "types": "./es/typing.d.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JavanShen/n-typical"
+  },
+  "homepage": "https://github.com/JavanShen/n-typical",
   "keywords": ["typical", "type", "animate"],
   "author": "apine",
   "license": "MIT",
