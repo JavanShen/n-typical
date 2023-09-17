@@ -6,7 +6,7 @@
   "scripts": {
     "build": "vite build && tsc",
     "test": "vitest",
-    "prepublishOnly": "pnpm test --run && pnpm build"
+    "prepublishOnly": "pnpm test && pnpm build"
   },
   "publishConfig": {
     "main": "./lib/typing.js",
