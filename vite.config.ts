@@ -9,7 +9,6 @@ export default defineConfig({
             fileName: 'typing'
         },
         rollupOptions: {
-            external: ['@camwiegert/typical'],
             output: [
                 {
                     format: 'es',

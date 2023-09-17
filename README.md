@@ -1,5 +1,4 @@
 # n-typical
----
 > 基于 [typical](https://github.com/camwiegert/typical)
 
 ### ✨ 扩展功能
