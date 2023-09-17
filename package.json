@@ -1,15 +1,19 @@
 {
   "name": "n-typical",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "基于 typical 的封装",
+  "files": ["es", "lib"],
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && tsc",
     "test": "vitest"
   },
-  "keywords": [],
-  "author": "",
+  "publishConfig": {
+    "main": "./lib/typing.js",
+    "module": "./es/typing.js",
+    "types": "./es/typing.d.ts"
+  },
+  "keywords": ["typical", "type", "animate"],
+  "author": "apine",
   "license": "MIT",
   "dependencies": {
     "@camwiegert/typical": "^0.1.1"

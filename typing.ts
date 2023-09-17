@@ -1,3 +1,4 @@
+// @ts-ignore
 import { type as typing, type as cycle } from '@camwiegert/typical'
 
 type Type = (
