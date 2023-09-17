@@ -36,6 +36,6 @@ type(element, ['text', 1000, 'text next'], 3, () => {
 | --- | --- |
 | target | 所需要控制的元素 |
 | actions | 由字符串数字和方法所组成的数组 |
-| loop | 循换次数，如需无限循环可传 Inifity |
+| loop | 循换次数，如需无限循环可传 Infinity |
 | cb | 每一次结束会触发的回调 |
 
