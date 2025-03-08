@@ -1,19 +1,22 @@
 # n-typical
-> 基于 [typical](https://github.com/camwiegert/typical)
 
-### ✨ 扩展功能
-+ 🥪 完整的TS类型支持
-+ 🥖 更直观的循环方式
-+ 🍦 循环结束回调
+![NPM Version](https://img.shields.io/npm/v/n-typical)
+
+> Based on [typical](https://github.com/camwiegert/typical)
+
+### ✨ Extended features
++ 🥪 Complete TypeScript support
++ 🥖 More intuitive looping method
++ 🍦 Loop end callback
 
 ![demo-pic](https://repository-images.githubusercontent.com/211405607/1dd6e300-f8b2-11e9-8260-26ad1d49db17)
 
-### 📦 安装
+### 📦 Install
 ```shell
 npm i n-typical
 ```
 
-### 🔨 使用
+### 🔨 Usage
 ```JavaScript
 import { type } from 'n-typical'
 
@@ -31,10 +34,10 @@ type(element, ['text', 1000, 'text next'], 3, () => {
     cb?: () => unknown
 ) => Promise<void>
 ```
-| 参数 | 描述 |
+| Parameters | Description |
 | --- | --- |
-| target | 所需要控制的元素 |
-| actions | 由字符串数字和方法所组成的数组 |
-| loop | 循换次数，如需无限循环可传 Infinity |
-| cb | 每一次结束会触发的回调 |
+| target | The elements to be controlled |
+| actions | An array composed of string numbers and methods |
+| loop | Number of iterations, if you need unlimited loops, you can pass `infinity` |
+| cb | Callback triggered at the end of each instance |
 
