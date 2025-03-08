@@ -2,6 +2,8 @@
 
 ![NPM Version](https://img.shields.io/npm/v/n-typical)
 
+[中文](https://github.com/JavanShen/n-typical/blob/main/README-zh_CN.md) | English
+
 > Based on [typical](https://github.com/camwiegert/typical)
 
 ### ✨ Extended features
